@@ -15,3 +15,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }}
         PR_URL: ${{ github.event.pull_request.html_url }}
+        GH_DEBUG: 1
