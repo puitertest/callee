@@ -3,8 +3,6 @@ on: workflow_call
 
 jobs:
   auto-merge:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     if: github.event.pull_request.draft == false
     steps:
